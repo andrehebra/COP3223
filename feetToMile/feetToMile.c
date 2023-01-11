@@ -10,6 +10,4 @@ int main(void) {
     feet_in_mile = yards_in_mile * feet_in_yard;
 
     printf("yards in MI=%d\n\n\nfeet in MI = %d.\n", yards_in_mile, feet_in_mile);
-
-
 }
