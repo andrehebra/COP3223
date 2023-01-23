@@ -10,7 +10,7 @@ do not use for loop or while loop
 #include <stdio.h>
 
 /*UCF tax rate on items purchased*/
-#define TAX_RATE 0.065
+#define TAX_RATE 0.065;
 
 int main(void) {
     float item_price;
