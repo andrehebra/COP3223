@@ -19,6 +19,8 @@ int main(void) {
     float total_price;
 
     printf("Please enter the item price: ");
-    scanf("%f", item_price);
+    scanf("%f", &item_price);
+    printf("%f", item_price);
 
+    return 0;
 }
