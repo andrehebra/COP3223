@@ -2,12 +2,31 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C/C++ Runner: Debug Session",
       "type": "lldb",
       "request": "launch",
+      "name": "Debug",
+      "program": "${workspaceFolder}/<executable file>",
       "args": [],
-      "cwd": "/Users/andrehebra/repos/COP3223",
-      "program": "/Users/andrehebra/repos/COP3223/build/Debug/outDebug"
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Andre/repos/COP3223/assignments/assignment1/problemA",
+      "program": "c:/Users/Andre/repos/COP3223/assignments/assignment1/problemA/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
     }
   ]
 }
