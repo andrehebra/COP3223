@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/andrehebra/repos/COP3223",
-      "program": "/Users/andrehebra/repos/COP3223/build/Debug/outDebug"
+      "cwd": "/Users/andrehebra/repos/COP3223/assignments/assignment1/problemA",
+      "program": "/Users/andrehebra/repos/COP3223/assignments/assignment1/problemA/build/Debug/outDebug"
     }
   ]
 }
