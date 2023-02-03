@@ -3,9 +3,10 @@
 int main() {
 
     int calendar_entry;
-    int i, start=7, days=31;
+    int i, start=3, days=31;
     int week_counter = 1;
     int day_counter = 1;
+    int sum = 0;
 
     for (i=1; i<start; i++) {
         printf("...");
@@ -21,6 +22,10 @@ int main() {
             printf(" %2d", i + 1);
         }
         
+
+        if (week_counter==3) {
+            sum += i+1;
+        }
         
 
         day_counter++;
@@ -32,6 +37,12 @@ int main() {
     }
 
     printf("\n");
+
+    if (sum%7==0) {
+        printf("the sum of the third week numbers is divisible by 7!\n");
+    } else {
+        printf("the sum of the third week numbers is not divisible by 7!\n");
+    }
 
     return 0;
 }
