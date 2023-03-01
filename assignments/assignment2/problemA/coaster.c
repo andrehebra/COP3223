@@ -2,7 +2,7 @@
 
 Andre Hebra
 COP3223C
-Section 2
+Section 3
 Programming Assignment #1
 Problem C
 
@@ -18,14 +18,6 @@ Problem C
 #define PERCENT_CAPACITY 0.25;
 
 int main() {
-    
-    /*ask user how many times the program should run, and save to variable*/
-    int number_of_runs;
-    printf("What is the value for N?\n");
-    scanf("%d", &number_of_runs);
-
-    /*for loop to run the program as many times as the user input*/
-    for (int i = 0; i < number_of_runs; i++) {
         /*initialize variables for the track length and number of passengers*/
         int track_length;
         int max_train_length;
@@ -74,7 +66,6 @@ int main() {
         } else {
             printf("Maximum Length fits exactly\n\n");
         }
-    }
 
     
 
