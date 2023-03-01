@@ -1,3 +1,15 @@
+/*
+
+Andre Hebra
+COP3223C
+Section 3
+Programming Assignment #2
+Problem B: Practice Strings
+
+Read in n, then n last names, and check to see if the first in the list is ever repeated again.
+
+*/
+
 #include <stdio.h>
 
 int main() {
