@@ -7,10 +7,16 @@ struct gas {
     float gas;
 };
 
+void mpg(struct gas *g1) {
+    (*g1).mpg = 
+}
+
 int main() {
     struct gas first;
 
-    scanf("%f", &first.distance);
+    scanf("%f", &first.gas);
+
+    mpg(&first);
 
     return 0;
 }
